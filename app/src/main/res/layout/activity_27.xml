@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity27">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flippers"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="283dp"
+        android:layout_marginTop="230dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Maha Shivarathri is the celebration of the Hindu god Shiva. Festivities take place in June in the Hindu Shiva temples around the island. Devotees take a purification bath at dawn and fast all day. Many of them take part in mediation rituals with the help of the Panchakshara mantra “Om Nama Shivaya“. Shiva statues are also bathed in milk and honey and covered in red vermillion to represent purification of the soul. Some temples, like Sri Kaileshwarar temple in Colombo, have dance and music performances as part of the celebrations."/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:onClick="videoplay"
+        android:text="PLAY" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"/>
+
+</RelativeLayout>

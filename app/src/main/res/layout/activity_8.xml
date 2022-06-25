@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity8">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flippers"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="283dp"
+        android:layout_marginTop="230dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="With a population composed with many a races and religions, Sri Lanka is never short of festivals and celebrations. Every month brings a celebration either religious or cultural importance, making Sri Lanka one of the countries with highest number of celebrations and holidays.
+
+The Sinhala-Tamil New year festival in April is the most important cultural festival in the country. The festival marks the beginning of the New Year and the end of harvesting season. A lengthy holiday and a table full of oily traditional delicacies like kokis, makes the New Year festival one of the long awaited festivals in the country.
+
+The May full moon poya day or Vesak is the most important religious celebration in Sri Lanka, where Buddhists celebrate the nativity, enlightenment and passing away of Lord Buddha with many celebrations. Sri Lankans of every religion crowd the roads to enjoy Vesak decorations including pandals and lanterns and many a makeshift alm houses that line the roads offering every food item from beverages, dessert to main meals.
+
+In August are the Esala festivals in Kandy and Kataragama. The Kataragama Esala Festival is a multi-religious festival where devotes use fire walking and extreme self-penance to shows their piety to Lord Kataragama. The Kandy Esala Perahera or the Dalanda Perahera is the largest cultural parade in the world and showcases the best of Sri Lankan dancing and music and the best of the domesticated tuskers in the country."/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:onClick="videoplay"
+        android:text="PLAY" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"/>
+
+</RelativeLayout>

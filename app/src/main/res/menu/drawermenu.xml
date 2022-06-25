@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/hm" android:title="Home" android:icon="@drawable/ic_house"/>
+    <item android:id="@+id/ser" android:title="Search" android:icon="@drawable/ic_map_point"/>
+    <item android:id="@+id/pop" android:title="Popualar Place" android:icon="@drawable/ic_loupe"/>
+    <item android:id="@+id/gal" android:title="Gallery" android:icon="@drawable/ic_gallery"/>
+    <item android:id="@+id/con" android:title="Contact" android:icon="@drawable/ic_phone_contact"/>
+    <item android:id="@+id/log" android:title="Logout" android:icon="@drawable/ic_logout"/>
+
+</menu>

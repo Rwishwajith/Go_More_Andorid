@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity9">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flippers"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="283dp"
+        android:layout_marginTop="230dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sri Lanka is filled with romantic landscapes, governed by rising mountains, lush forests, ocean like tanks and gushing waterfalls, that it was considered the lost paradise by many a globe trotters, who fell upon the country. The golden beaches of the country had been praised for their picture postcard views since eternity. The dusk and dawn and many human activities connected to these times of the day creates a vibrant picture along the coasts of Sri Lanka.
+
+The central highlands of the island are filled with pictures of stirring mountains carpeted with lush green tea gardens, roaring waterfalls mingling with the clouds and landscapes shimmering in sunlight and disappearing under the rising mist. Travelling towards the top of the country to the North Central Valley of the Kings, mountains covered with lush tropical forests disappears under the glare of the sun giving way to acres of light green carpets of paddy dotted with towering ancient white stupas and fed with oceans like reservoirs locally known as wewa.  Giant statues of Lord Buddha rises above the forest line while ancient palaces stand abandoned to the forest, waiting for a master, who long departed from life.
+
+Travelling further north the landscape changes drastically, North of Sri Lanka is a world apart from the rest of country. Colorful Hindu temples replace the white pagodas while sari clad damsels roam the streets on bicycles.
+
+On the western coasts of the country is Colombo, a capital city of the island, which displays a rich colonial heritage. A potpourri of races, religions and cultures, Colombo parades the best and worst the country has to offer.  "/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:onClick="videoplay"
+        android:text="PLAY" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"/>
+
+</RelativeLayout>

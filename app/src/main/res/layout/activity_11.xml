@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity11">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flippers"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="283dp"
+        android:layout_marginTop="230dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="With nearly 1600 km of of palm fringed Coastline baked to perfection surrounding the country Sri Lanka is the ideal destination for beach bums worldwide.  May it be windsurfing, kayaking, yachting, water skiing, scuba diving or jut lazing around for the perfect tan, Sri Lanka offers it all.
+
+The two monsoon winds providing rain to the two corners of the country at various periods, makes Sri Lanka’s beach holiday a year round prospect. The north east winds make the south western coast sunny and the sea calm from November to March. The South West winds make the East Coast waters quiet with the constant sun shine happily in agreement.
+
+The best of the Southern beaches include Tangalla, Beruwala, Mirissa, Bentota and Unawatuna with varying options including chic boutique hotels, glowing coral reefs, gentle sandbars and undiscovered corners of paradise.
+
+Although Sri Lanka’s southern beaches has been long discovered by the international traveller the east coast is yet to be fully discovered. The most known among the Eastern beaches is the Arugam Bay, the high church of surfing enthusiasts’ in the region. Once a mere rumour, Uppuveli beach is also open to the sun seekers after a three decade long civil war.
+
+On the Western corner of the country to the north of Colombo is the Negambo lagoon. Its beaches, an old favourite with local and foreign visitors and lagoon famed for lobster harvesting. Despite having a ring of sandy beaches surrounding the country, Galle Face Green, a half a kilometre stretch between Galle Road and Indian Ocean is the playground of the Colombians."/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:onClick="videoplay"
+        android:text="PLAY" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"/>
+
+</RelativeLayout>

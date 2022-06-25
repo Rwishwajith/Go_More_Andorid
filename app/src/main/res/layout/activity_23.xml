@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/df"
+    android:layout_height="match_parent"
+    tools:context=".Activity23">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="8 Festivals You Need to Travel to Sri Lanka For"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:layout_marginBottom="260dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@drawable/button_favourite"
+        android:text="Deepavali "/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@drawable/button_favourite"
+        android:text="Sinhala and Tamil New Year"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@drawable/button_favourite"
+        android:text="Ramadan and Eid"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt3"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="410dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@drawable/button_favourite"
+        android:text="Christmas"/>
+
+
+
+</RelativeLayout>

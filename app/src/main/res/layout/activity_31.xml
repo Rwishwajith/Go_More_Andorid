@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity31">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flippers"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="283dp"
+        android:layout_marginTop="230dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Even though only about 20% or less of the population in Sri Lanka is Christian, Christmas is still a big celebration on the island. Every mall, store, business and bakery is colorfully decorated with trees, lights and garlands. Religious places or businesses owned by Christians, will have nativity scenes. All big hotels serve Christmas dinner on the 24th and the Cinnamon Grand Hotel decorates the lobby to a great extent. Just a visit to the hotel is a big enough Christmas experience in Colombo. Don’t forget to try the Sri Lankan Christmas cake, the richest and most spiced cake in the world."/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:onClick="videoplay"
+        android:text="PLAY" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"/>
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "358737885252",
+    "firebase_url": "https://gomore-1.firebaseio.com",
+    "project_id": "gomore-1",
+    "storage_bucket": "gomore-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358737885252:android:94bc24a8e9aaee85462411",
+        "android_client_info": {
+          "package_name": "com.example.asus.finaltime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358737885252-fhtici6o4st2buski5rfb2hs4l92bfia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjGD2FHxolwtPNoF7JPDdU5uwp6mjLxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358737885252-fhtici6o4st2buski5rfb2hs4l92bfia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358737885252:android:15441461f86f7678",
+        "android_client_info": {
+          "package_name": "com.example.asus.smartbin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358737885252-pdgc1i87u02b0ejrnlcl0eikvqgvliju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.smartbin",
+            "certificate_hash": "e351470de610897c6a83552af30684be99d4d9e4"
+          }
+        },
+        {
+          "client_id": "358737885252-0n86luamdmnkd7aelhtqrmanv48hunmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.smartbin",
+            "certificate_hash": "a10d07edb39438ce284e3745bbea58e26444e0da"
+          }
+        },
+        {
+          "client_id": "358737885252-fhtici6o4st2buski5rfb2hs4l92bfia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjGD2FHxolwtPNoF7JPDdU5uwp6mjLxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358737885252-fhtici6o4st2buski5rfb2hs4l92bfia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358737885252:android:6d517efbf1e0c245",
+        "android_client_info": {
+          "package_name": "com.example.blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358737885252-fhtici6o4st2buski5rfb2hs4l92bfia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjGD2FHxolwtPNoF7JPDdU5uwp6mjLxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358737885252-fhtici6o4st2buski5rfb2hs4l92bfia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

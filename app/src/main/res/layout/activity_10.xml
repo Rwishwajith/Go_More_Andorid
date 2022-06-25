@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity10">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flippers"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="283dp"
+        android:layout_marginTop="230dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Despite its fame as a resplendent island and a leading tourist destination, the secret of Sri Lanka’s attraction lies with its people. The spice addicted, cricket crazy and tea drinking people of Sri Lanka are famed for big smiles and a bigger heart. With a culture enriched with three thousand years of knowledge, Buddhism and many a colonial traditions, the Sri Lankan society is a potpourri of religions and races different yet similar in many a ways.
+
+The Sri Lankans all love their food spicy and their tea light; an unavoidable for a country, which produces the world’s best spices and tea. Introduced to the country in the 19th century by colonial British Ceylon tea is the best tea in the world while Sri Lanka has also been known for its high quality spices since time immemorial.
+
+In Sri Lanka, cricket is the ultimate passion which draws all the Sri Lankans together irrespective of caste, race and creed.
+
+Other than tea and cricket, gems especially blue sapphires is synonymous with Sri Lanka. Country’s gem industry has a long, colourful history. Known also as ‘Rathnadeepa’ or the land of gems Sri Lanka had been producing brilliant blue Sapphire and red rubies among many other. Along with gems, Sri Lanka had been exporting fine crafted ivory to many royal courts of Europe. Many dainty treasures carved by local artists in ivory are found in the museum in Europe standing witness to the local skills, which is still found after being handed over father to son."/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"
+        android:onClick="videoplay"
+        android:text="PLAY" />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView"
+        android:layout_marginTop="430dp"
+        android:layout_marginBottom="0dp"
+        android:layout_gravity="center_horizontal"/>
+
+</RelativeLayout>

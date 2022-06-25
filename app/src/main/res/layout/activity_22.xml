@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/df"
+    tools:context=".Activity22">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="8 Festivals You Need to Travel to Sri Lanka For"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:textAllCaps="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="260dp"
+        android:layout_marginTop="150dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/iron"
+            android:text="Sri Lanka is home to four main religions, Buddhism, Hinduism, Islam and Christianity. This means there are a lot of public holidays each year – 25 in fact! Some of these holidays are celebrations that can be enjoyed by one and all. Here is a list of Sri Lankan festivals to consider coming to the teardrop island for." />
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:layout_marginBottom="260dp"
+        android:layout_marginTop="280dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@drawable/button_favourite"
+        android:text="Vesak Poya"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="340dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@drawable/button_favourite"
+        android:text="Kandy Perahera"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="400dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@drawable/button_favourite"
+        android:text="Poson Poya Festival"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt3"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="460dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@drawable/button_favourite"
+        android:text="Maha Shivarathri"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt4"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="520dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@drawable/button_favourite"
+            android:text="Go to the next page see our festival"/>
+
+
+
+
+</RelativeLayout>

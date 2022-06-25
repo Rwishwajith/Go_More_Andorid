@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">finaltime</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="register">Register</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="simsimi_api">9d92e3ad-3222-43e3-bc8f-7183f77075b6</string>
+    <string-array name="numbers">
+        <item>Elephants Watching</item>
+        <item>Wild Life</item>
+        <item>Historical/Architectural Visits</item>
+        <item>Thrill Rides</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="numbers2">
+        <item>Jeep</item>
+        <item>Cab</item>
+    </string-array>
+    <string-array name="numbers3">
+        <item>Kitulgala</item>
+        <item>Hagala</item>
+    </string-array>
+    <string-array name="numbers4">
+        <item>Nuwara Eliya</item>
+        <item>Hagala</item>
+        <item>Sembuwater</item>
+        <item>Hikaduwa</item>
+    </string-array>
+    <string-array name="numbers5">
+        <item>Anuradapura</item>
+        <item>Polanaruwa</item>
+        <item>Yapahuwa</item>
+        <item>Kurunagala</item>
+    </string-array>
+    <string-array name="numbers6">
+        <item>Hikaduwa</item>
+        <item>Arugamba</item>
+        <item>Galla</item>
+    </string-array>
+    <string-array name="numbers7">
+        <item>Peradaniya</item>
+        <item>Sithawaka</item>
+    </string-array>
+
+</resources>
